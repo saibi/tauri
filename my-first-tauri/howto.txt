@@ -1,0 +1,30 @@
+mkdir ui
+create ui/index.html 
+
+cargo tauri init 
+
+	What is your app name?
+	This will be the name of your final bundle and what the OS will call your app. You can use any name you want here.
+
+	What should the window title be?
+	This will be the title of the default main window. You can use any title you want here.
+
+	Where are your web assets (HTML/CSS/JS) located relative to the <current dir>/src-tauri/tauri.conf.json file that will be created?
+	This is the path that Tauri will load your frontend assets from when building for production.
+	Use ../ui for this value.
+
+	What is the URL of your dev server?
+	This can be either a URL or a file path that Tauri will load during development.
+	Use ../ui for this value.
+
+	What is your frontend dev command?
+	This is the command used to start your frontend dev server.
+	You can leave this blank since nothing needs to be compiled.
+
+	What is your frontend build command?
+	This is the command to build your frontend files.
+	You can leave this blank since nothing needs to be compiled.
+
+
+
+cargo tauri dev
